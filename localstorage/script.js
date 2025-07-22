@@ -29,5 +29,12 @@ const p2= Object.create(p1);
 console.log(p2.getFullname());
 p2.__proto__.name="hack";
 console.log(p2.getFullname());
-///f
-//ddcdvf
+
+function Person(name){
+    this.name=name;
+    this.getFullName=function(){
+        return this.name;
+    }
+}
+const p3=new Person("wachan");
+console.log(p3.getFullName());
