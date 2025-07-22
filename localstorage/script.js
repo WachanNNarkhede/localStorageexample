@@ -38,3 +38,5 @@ function Person(name){
 }
 const p3=new Person("wachan");
 console.log(p3.getFullName());
+// p3.__proto__.name="hack";
+// console.log(p3.getFullName());
