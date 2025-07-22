@@ -40,3 +40,5 @@ const p3=new Person("wachan");
 console.log(p3.getFullName());
 // p3.__proto__.name="hack";
 // console.log(p3.getFullName());
+
+//object class proto is null, but prototype is object
