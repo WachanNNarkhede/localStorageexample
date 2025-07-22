@@ -42,3 +42,4 @@ console.log(p3.getFullName());
 // console.log(p3.getFullName());
 
 //object class proto is null, but prototype is object
+//javascript will contuniously check the prototype/in our case __proto__ until it reaches null
