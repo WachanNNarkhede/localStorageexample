@@ -29,3 +29,4 @@ const p2= Object.create(p1);
 console.log(p2.getFullname());
 p2.__proto__.name="hack";
 console.log(p2.getFullname());
+///fdvdvdv
